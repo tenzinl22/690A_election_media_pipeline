@@ -5,7 +5,7 @@ Tenzin Lhamo
 This repository contains an automated ETL pipeline to dynamically monitor and analyze news coverage of the 2024 USA presidential election results using the NewsAPI. As of today, December 6th, 2024, the pipeline contains data from November 6th, 2024 (the day after the election) through November 20th, 2024. The pipeline will automatically update every day to include data for the following day, maintaining an ongoing two-week window of election-related news. This is due to the NewsAPI's limitations in data access. The pipeline includes tasks including extracting, loading, and transformation using Python, as well as automation using Prefect. This information can be used to address questions, including 'what are the key themes and topics that the news focuses on?', 'how does the news cover certain topics, candidates, policies, and events?', 'how does news coverage shift in response to public reaction?', 'what are the differences in news coverage of the election outcome between left- and right-winged sources?'  
 
 ## Structure
-- '2024_election_news_pipeline.ipynb': The Google CoLab notebook where the pipeline setup is performed.
+- '2024_election_news_pipeline.ipynb': The Jupyter notebook where the pipeline setup is performed.
 - 'README.md': This file contains a description of the project.
   
 ## Transformation
